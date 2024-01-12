@@ -20,21 +20,30 @@ public class FridayMorning {
 		
 		char x = ' '; System.out.println("Null Character");
 		String nullname = "Liam"; System.out.println("Null name");
-		byte nullbyte = 0; System.out.println("Null number");
-		short nullshrt = 1234; System.out.println("Null number");
+		byte nullbyte = 0; System.out.println(nullbyte);
+		short nullshrt = 0; System.out.println(nullshrt);
 		int nullint = 1234567; System.out.println("Null number");
 		long nulllong = 99999999999L; System.out.println("Null number");
-		float nullfloat = 0.0F; System.out.println("Null float");
+		float nullfloat = 0.0F; System.out.println(nullfloat);
 		double nulldouble = 0.0; System.out.println("Null double");
 		boolean nullboo = false; System.out.println("Null is false");
 		
 		char a = 'a'; 
 		char f = 'b'; 
-		System.out.println(a+f);
+		System.out.println(a+f); 
+
 		
 		char h = ' ';
 		char g = ' ';
 		System.out.println(h+g);
+		
+			//int wrongnum = 1.4; - cannot convert double into int. 
+		
+		
+		
+		
+		
+		
 	}
 	
 }
