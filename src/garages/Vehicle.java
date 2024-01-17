@@ -7,8 +7,15 @@ public class Vehicle {
 	private double price;
 
 	public Vehicle() {
-
+		super();
 	};
+
+	public Vehicle(String name, int age, double price) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.price = price;
+	}
 
 	public void print() {
 		System.out.println("Vehicle Name:  " + this.name);

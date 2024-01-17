@@ -1,4 +1,4 @@
-package IfStatements;
+package ifStatements;
 
 public class IfStatement {
 
