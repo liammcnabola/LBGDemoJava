@@ -21,11 +21,11 @@ public class Bike extends Vehicle {
 		this.wheels = wheels;
 	}
 
-	@Override
-	public void print() {
-		System.out.println("Has Wheels:   " + this.wheels);
-
-	}
+//	@Override
+//	public void print() {
+//		System.out.println("Has Wheels:   " + this.wheels);
+//
+//	}
 //	public void printWheels() {
 //		System.out.println("Wheels:  " + wheels);
 //	}

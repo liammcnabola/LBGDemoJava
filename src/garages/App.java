@@ -1,11 +1,10 @@
 package garages;
 
-
-
 public class App {
 
 	public static void main(String[] args) {
 
+		
 		Car Ford = new Car();
 		Ford.setName("Ford");
 		Ford.setAge(5);
@@ -42,7 +41,12 @@ public class App {
 		for (Vehicle vehicle : vehicles) {
 			vehicle.print();
 		}
+		
+
+		
 	}
+	
+
 
 
 }
