@@ -22,7 +22,8 @@ public class Planes extends Vehicle {
 		this.wingSpan = wingSpan;
 	}
 
-	public void printWingSpan() {
+	@Override
+	public void print() {
 		System.out.println("Wing Span:   " + wingSpan + "ft.");
 	}
 }
