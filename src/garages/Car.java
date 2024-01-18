@@ -14,10 +14,11 @@ public class Car extends Vehicle {
 		;
 	}
 
-//	@Override
-//	public void print() {
-//		System.out.println("Boot Size:" + this.bootSize); // Override
-//	}
+	@Override
+	public void print() {
+		super.print();
+		System.out.println("Boot Size:" + this.bootSize); // Override
+	}
 
 	public int getBootSize() {
 		return bootSize;

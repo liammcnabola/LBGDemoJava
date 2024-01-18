@@ -1,5 +1,7 @@
 package garages;
 
+import java.util.Objects;
+
 public class Vehicle {
 
 	private String name;
@@ -48,5 +50,22 @@ public class Vehicle {
 		this.price = price;
 	}
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(age, name, price);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Vehicle other = (Vehicle) obj;
+		return age == other.age && Objects.equals(name, other.name)
+				&& Double.doubleToLongBits(price) == Double.doubleToLongBits(other.price);
+	}
 
 }
